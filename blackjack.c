@@ -32,11 +32,11 @@ int main() {
             switch (opcao) {
                 case 1:
                     printf("Voce decidiu tirar mais uma carta!\n\n");
-                    int stand = 0;
+                    stand = 0;
                     break;
                 case 2:
                     printf("Voce decidiu parar. O oponente continua.\n\n");
-                    int stand = 1;
+                    stand = 1;
                     break;
                 default:
                     printf("Opcao invalida, tente novamente.\n");
@@ -60,11 +60,11 @@ int main() {
         switch (opcao) {
             case 1:
                 printf("Voce decidiu tirar mais uma carta!\n\n");
-                int stand = 0;
+                stand = 0;
                 break;
             case 2:
                 printf("Voce decidiu parar. O oponente continua.\n\n");
-                int stand = 1;
+                stand = 1;
                 break;
             default:
                 printf("Opcao invalida, tente novamente.\n");
